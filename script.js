@@ -27,3 +27,27 @@ backToTopButton.addEventListener('click', () => {
         behavior: 'smooth'
     });
 });
+
+// Chatbot functionality
+const sendBtn = document.getElementById('send-btn');
+const userInput = document.getElementById('user-input');
+const messages = document.getElementById('messages');
+
+sendBtn.addEventListener('click', () => {
+    const userMessage = userInput.value;
+    if (userMessage.trim()) {
+        const userMessageElem = document.createElement('div');
+        userMessageElem.classList.add('user-message');
+        userMessageElem.innerText = userMessage;
+        messages.appendChild(userMessageElem);
+
+        // Add bot response (placeholder)
+        const botMessageElem = document.createElement('div');
+        botMessageElem.classList.add('bot-message');
+        botMessageElem.innerText = "This is a placeholder response. Integrate your chatbot API to respond accordingly.";
+        messages.appendChild(botMessageElem);
+
+        userInput.value = '';
+        messages.scrollTop = messages.scrollHeight;
+    }
+});
