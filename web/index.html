@@ -1,72 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luxury Travel Guides</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luxury Travel Guides</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Travel Guides</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#destinations">Destinations</a></li>
-                <li><a href="#tips">Travel Tips</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <h1>Luxury Travel Guides</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#travel-tips">Travel Tips</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
     <section id="home">
-        <div class="hero">
-            <h2>Welcome to Travel Guides</h2>
-            <p>Your ultimate guide to the best travel destinations around the world.</p>
-        </div>
+      <h2>Welcome to Luxury Travel Guides</h2>
+      <p>Your ultimate guide to the best travel destinations around the world.</p>
     </section>
+
     <section id="destinations">
-        <h2>Popular Destinations</h2>
-        <div class="destinations-container">
-            <div class="destination">
-                <img src="https://www.commonwealthfund.org/sites/default/files/styles/countries_hero_desktop/public/country_image_Japan.jpg?h=fcdfd899&itok=YWWi9dFQ" alt="Destination 1">
-                <h3>Japan</h3>
-                <p>Explore the beauty of Tokyo.</p>
-            </div>
-            <div class="destination">
-                <img src="https://www.tripsavvy.com/thmb/Xqg77lMGJaUcMQOtFjfTQr5jfY0=/6102x3947/filters:fill(auto,1)/malaysia-travel-583d01ac5f9b58d5b13cec0d.jpg" alt="Destination 2">
-                <h3>Malaisya 2</h3>
-                <p>Discover the wonders of Kualalambur.</p>
-            </div>
-            <div class="destination">
-                <img src="https://media.cntraveler.com/photos/58da7b6e1021b64be09794da/master/pass/GettyImages-177303568.jpg" alt="Destination 3">
-                <h3>Italy</h3>
-                <p>Experience the culture of Rome.</p>
-            </div>
-        </div>
+      <h2>Popular Destinations</h2>
+      <article>
+        <img src="destination1.jpg" alt="Destination 1">
+        <h3>Destination 1</h3>
+        <p>Explore the beauty of Destination 1.</p>
+      </article>
+      <article>
+        <img src="destination2.jpg" alt="Destination 2">
+        <h3>Destination 2</h3>
+        <p>Discover the wonders of Destination 2.</p>
+      </article>
+      <article>
+        <img src="destination3.jpg" alt="Destination 3">
+        <h3>Destination 3</h3>
+        <p>Experience the charm of Destination 3.</p>
+      </article>
     </section>
-    <section id="tips">
-        <h2>Travel Tips</h2>
-        <ul>
-            <li>Tip 1: Always carry a map.</li>
-            <li>Tip 2: Learn basic phrases in the local language.</li>
-            <li>Tip 3: Keep copies of important documents.</li>
-        </ul>
+
+    <section id="travel-tips">
+      <h2>Travel Tips</h2>
+      <p>Get the best travel tips for a safe and enjoyable journey.</p>
     </section>
-    <footer id="contact">
-        <h2>Contact Us</h2>
-        <p>Email: info@travelguides.com</p>
-        <p>Phone: +123-456-7890</p>
-    </footer>
-    <div id="chatbot">
-        <h2>Chat with Us</h2>
-        <div id="chat-window">
-            <div id="messages"></div>
-            <input type="text" id="user-input" placeholder="Type your message...">
-            <button id="send-btn">Send</button>
-        </div>
-    </div>
-    <button id="back-to-top">Top</button>
-    <script src="script.js"></script>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Feel free to reach out for any travel inquiries.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Luxury Travel Guides. All rights reserved.</p>
+  </footer>
+
+  <script>
+    (function (w, d, s, o, f, js, fjs) {
+      w["botsonic_widget"] = o;
+      w[o] =
+        w[o] ||
+        function () {
+          (w[o].q = w[o].q || []).push(arguments);
+        };
+      (js = d.createElement(s)), (fjs = d.getElementsByTagName(s)[0]);
+      js.id = o;
+      js.src = f;
+      js.async = 1;
+      fjs.parentNode.insertBefore(js, fjs);
+    })(window, document, "script", "Botsonic", "https://widget.botsonic.com/CDN/botsonic.min.js");
+    Botsonic("init", {
+      serviceBaseUrl: "https://api-azure.botsonic.ai",
+      token: "43679a5e-3118-44f8-870d-5e572c254ad2",
+    });
+  </script>
 </body>
 </html>
