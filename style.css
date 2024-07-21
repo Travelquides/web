@@ -1,3 +1,4 @@
+/* style.css */
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -6,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #ff6f61;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -41,11 +42,11 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ff6f61;
+    color: #333;
 }
 
 .hero {
-    background-image: url('hero-image.jpg');
+    background-image: url('https://holidayturn.com/wp-content/uploads/2017/09/International-travel.jpg');
     background-size: cover;
     background-position: center;
     height: 80vh;
