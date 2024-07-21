@@ -1,233 +1,114 @@
-<<<<<<< HEAD
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    background-color: #ff5a5f;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-  }
-  
-  header h1 {
-    margin: 0;
-    font-size: 2.5em;
-  }
-  
-  nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 10px 0 0;
-    display: flex;
-    justify-content: center;
-  }
-  
-  nav ul li {
-    margin: 0 15px;
-  }
-  
-  nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.2em;
-  }
-  
-  .intro {
-    text-align: center;
-    padding: 50px 20px;
-    background: linear-gradient(rgba(255, 90, 95, 0.8), rgba(255, 90, 95, 0.8)), url('travel.jpg') no-repeat center center;
-    background-size: cover;
-    color: white;
-  }
-  
-  .intro h2 {
-    font-size: 3em;
-  }
-  
-  .destinations {
-    padding: 50px 20px;
-    text-align: center;
-  }
-  
-  .destinations h2 {
-    font-size: 2.5em;
-    margin-bottom: 40px;
-  }
-  
-  .destination {
-    display: inline-block;
-    width: 30%;
-    margin: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    background-color: white;
-    border-radius: 10px;
-    overflow: hidden;
-    transition: transform 0.3s;
-  }
-  
-  .destination:hover {
-    transform: scale(1.05);
-  }
-  
-  .destination img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-  }
-  
-  .destination h3 {
-    font-size: 1.5em;
-    margin: 15px 0;
-  }
-  
-  .destination p {
-    padding: 0 15px 15px;
-  }
-  
-  footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #333;
-    color: white;
-  }
-  
-  .botsonic-widget {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    width: 300px; /* Adjusted width */
-    height: 500px; /* Adjusted height */
-    z-index: 1000;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    overflow: hidden;
-  }
-  
-  .botsonic-widget iframe {
-    width: 100%;
-    height: 100%;
-    border: none;
-  }
-  
-=======
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    background-color: #ff5a5f;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-  }
-  
-  header h1 {
-    margin: 0;
-    font-size: 2.5em;
-  }
-  
-  nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 10px 0 0;
-    display: flex;
-    justify-content: center;
-  }
-  
-  nav ul li {
-    margin: 0 15px;
-  }
-  
-  nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.2em;
-  }
-  
-  .intro {
-    text-align: center;
-    padding: 50px 20px;
-    background: linear-gradient(rgba(255, 90, 95, 0.8), rgba(255, 90, 95, 0.8)), url('travel.jpg') no-repeat center center;
-    background-size: cover;
-    color: white;
-  }
-  
-  .intro h2 {
-    font-size: 3em;
-  }
-  
-  .destinations {
-    padding: 50px 20px;
-    text-align: center;
-  }
-  
-  .destinations h2 {
-    font-size: 2.5em;
-    margin-bottom: 40px;
-  }
-  
-  .destination {
-    display: inline-block;
-    width: 30%;
-    margin: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    background-color: white;
-    border-radius: 10px;
-    overflow: hidden;
-    transition: transform 0.3s;
-  }
-  
-  .destination:hover {
-    transform: scale(1.05);
-  }
-  
-  .destination img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-  }
-  
-  .destination h3 {
-    font-size: 1.5em;
-    margin: 15px 0;
-  }
-  
-  .destination p {
-    padding: 0 15px 15px;
-  }
-  
-  footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #333;
-    color: white;
-  }
-  
-  .botsonic-widget {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    width: 300px; /* Adjusted width */
-    height: 500px; /* Adjusted height */
-    z-index: 1000;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    overflow: hidden;
-  }
-  
-  .botsonic-widget iframe {
-    width: 100%;
-    height: 100%;
-    border: none;
-  }
-  
->>>>>>> 2e4565917370617f526e49ea4f202e84e78cbf50
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ff5a5f;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.intro {
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(rgba(255, 90, 95, 0.8), rgba(255, 90, 95, 0.8)), url('https://www.traveller.com.au/content/dam/images/h/1/e/3/n/w/image.related.articleLeadwide.620x349.h1e3oa.png/1631578530777.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+}
+
+.intro h2 {
+  font-size: 3em;
+}
+
+.destinations {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.destinations h2 {
+  font-size: 2.5em;
+  margin-bottom: 40px;
+}
+
+.destination {
+  display: inline-block;
+  width: 30%;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.destination:hover {
+  transform: scale(1.05);
+}
+
+.destination img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.destination h3 {
+  font-size: 1.5em;
+  margin: 15px 0;
+}
+
+.destination p {
+  padding: 0 15px 15px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+.botsonic-widget {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px; /* Adjusted width */
+  height: 500px; /* Adjusted height */
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  overflow: hidden;
+}
+
+.botsonic-widget iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
