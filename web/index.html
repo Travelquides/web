@@ -5,53 +5,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Luxury Travel Guides</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
   <header>
     <h1>Luxury Travel Guides</h1>
     <nav>
       <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#destinations">Destinations</a></li>
-        <li><a href="#travel-tips">Travel Tips</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Destinations</a></li>
+        <li><a href="#">Travel Tips</a></li>
+        <li><a href="#">Contact</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section id="home">
+    <section class="intro">
       <h2>Welcome to Luxury Travel Guides</h2>
       <p>Your ultimate guide to the best travel destinations around the world.</p>
     </section>
 
-    <section id="destinations">
+    <section class="destinations">
       <h2>Popular Destinations</h2>
-      <article>
+      <div class="destination">
         <img src="destination1.jpg" alt="Destination 1">
         <h3>Destination 1</h3>
         <p>Explore the beauty of Destination 1.</p>
-      </article>
-      <article>
+      </div>
+      <div class="destination">
         <img src="destination2.jpg" alt="Destination 2">
         <h3>Destination 2</h3>
         <p>Discover the wonders of Destination 2.</p>
-      </article>
-      <article>
+      </div>
+      <div class="destination">
         <img src="destination3.jpg" alt="Destination 3">
         <h3>Destination 3</h3>
         <p>Experience the charm of Destination 3.</p>
-      </article>
-    </section>
-
-    <section id="travel-tips">
-      <h2>Travel Tips</h2>
-      <p>Get the best travel tips for a safe and enjoyable journey.</p>
-    </section>
-
-    <section id="contact">
-      <h2>Contact Us</h2>
-      <p>Feel free to reach out for any travel inquiries.</p>
+      </div>
     </section>
   </main>
 
@@ -59,6 +50,7 @@
     <p>&copy; 2024 Luxury Travel Guides. All rights reserved.</p>
   </footer>
 
+  <!-- Botsonic Script -->
   <script>
     (function (w, d, s, o, f, js, fjs) {
       w["botsonic_widget"] = o;
