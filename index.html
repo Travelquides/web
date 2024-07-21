@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Guides</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Travel Guides</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Destinations</a></li>
+        <li><a href="#">Travel Tips</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Welcome to Travel Guides</h2>
+      <p>Your ultimate guide to the best travel destinations around the world.</p>
+    </section>
+
+    <section class="destinations">
+      <h2>Popular Destinations</h2>
+      <div class="destination">
+        <img src="https://www.commonwealthfund.org/sites/default/files/styles/countries_hero_desktop/public/country_image_Japan.jpg?h=fcdfd899&itok=YWWi9dFQ" alt="Japan">
+        <h3>Japan</h3>
+        <p>Explore the beauty of Tokyo.</p>
+      </div>
+      <div class="destination">
+        <img src="https://www.tripsavvy.com/thmb/Xqg77lMGJaUcMQOtFjfTQr5jfY0=/6102x3947/filters:fill(auto,1)/malaysia-travel-583d01ac5f9b58d5b13cec0d.jpg" alt="Malaysia">
+        <h3>Malaysia</h3>
+        <p>Discover the wonders of KualaLambur.</p>
+      </div>
+      <div class="destination">
+        <img src="https://media.cntraveler.com/photos/58da7b6e1021b64be09794da/master/pass/GettyImages-177303568.jpg" alt="Italy">
+        <h3>Italy</h3>
+        <p>Experience the charm of Rome.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Travel Guides. All rights reserved.</p>
+  </footer>
+
+  <!-- Botsonic Script -->
+  <script>
+    (function (w, d, s, o, f, js, fjs) {
+      w["botsonic_widget"] = o;
+      w[o] =
+        w[o] ||
+        function () {
+          (w[o].q = w[o].q || []).push(arguments);
+        };
+      (js = d.createElement(s)), (fjs = d.getElementsByTagName(s)[0]);
+      js.id = o;
+      js.src = f;
+      js.async = 1;
+      fjs.parentNode.insertBefore(js, fjs);
+    })(window, document, "script", "Botsonic", "https://widget.botsonic.com/CDN/botsonic.min.js");
+    Botsonic("init", {
+      serviceBaseUrl: "https://api-azure.botsonic.ai",
+      token: "43679a5e-3118-44f8-870d-5e572c254ad2",
+    });
+  </script>
+</body>
+</html>
