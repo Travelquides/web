@@ -98,8 +98,8 @@ footer {
   position: fixed;
   bottom: 0;
   right: 0;
-  width: 300px; /* Adjusted width */
-  height: 500px; /* Adjusted height */
+  width: 400px; /* Adjusted width */
+  height: 600px; /* Adjusted height */
   z-index: 1000;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-top-left-radius: 10px;
